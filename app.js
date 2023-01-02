@@ -82,6 +82,7 @@ io.on("connection", (socket) => {
 
 server.listen(2022, () => {
   console.log("listening on :2022");
+  console.log("hi");
 });
 
 rabbitmq.Consumer();
